@@ -1,8 +1,9 @@
-# React + Vite
+# This is a application using react where we can add multiple select options using the following specifications:-
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Specifications:-
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.When you click on the input field, a list of items will appear.
+2.As you type, the list should show only items that match what you're typing.
+3.Clicking on an item should turn it into a chip at the top, and the input field should adjust automatically.
+4.Once an item becomes a chip, it should no longer be in the list.
+5.Each chip has an "X" icon. Clicking it removes the chip and adds the item back to the list. Using react
